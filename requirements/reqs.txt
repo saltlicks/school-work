@@ -1,0 +1,47 @@
+/*
+Project 4: Input & Output
+You should be comfortable with the content in the modules up to and including the 
+module "Input Output" for this project.
+
+For this project, download the text file weblog.txt
+http://www.santarosa.edu/%7Elmeade/weblog.txt
+Note: To download this file, right click on the link and select SAVE AS.
+
+This file is an Apache web log taken from the web server for St. Mary's 
+University. When a visitor goes to their web site, the visitor's browser 
+makes a request to the web server to view a web page, which is a file residing 
+on the server. Each time a page is requested by a browser, the web server 
+records information about that request. This weblog.txt holds the details of 
+some of those requests. See below for a list of fields with an example:
+
+Web Log Example - http://www.santarosa.edu/%7Elmeade/weblog.html
+
+This file does not include all possible information that could be collected by 
+a web server. The full description of the apache log file format can be found 
+here: http://httpd.apache.org/docs/2.2/logs.html
+
+For this project, you can use each line of the web log file as one string. 
+An array of size 2990 will hold all of the lines in this file.
+
+Minimum Requirements:
+
+_1_ Create a separate class that contains the following: (4 points). 
+Note: This class should be separate and apart from the public class that 
+holds the main method.  You can either make a class that is not a public class 
+in the same file or you could make it public and put it in a 
+separate .java file:
+        _1.a_ Create a method to read each line of the web log file. (4 points)
+        
+        _1.b_ Each line should then be stored in a private array created in the 
+        class, such that the first element of the array is the first line of 
+        the web log file. Because each element will hold an entire line from 
+        the file, the array should be declared as an array of strings (4 points).
+        
+        _1.c_ Create one more method to use the Arrays class sort method to sort 
+        the contents of the array and write the contents of the array to a file. 
+        The contents of the new file should look like the original input file 
+        once your program completes, but in sorted order (4 points).
+_2_ In the primary class for your package, create a main method that calls all of 
+your methods (4 points).
+
+ */
