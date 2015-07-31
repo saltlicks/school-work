@@ -20,6 +20,8 @@ public class Project4IOMauricioGuzman {
         String filepath = "./weblog.txt";
         WeblogUtils go = new WeblogUtils();
         go.readWeblogFile(filepath);
+        go.sortWeblogData();
+        go.writeArrayData();
     }
     
 }

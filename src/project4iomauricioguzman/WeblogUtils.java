@@ -31,6 +31,7 @@ public class WeblogUtils {
         * once your program completes, but in sorted order (4 points).
         */
         java.util.Arrays.sort(weblogData);
+       
         
     }
     public void writeArrayData()
@@ -38,6 +39,7 @@ public class WeblogUtils {
  
         String output = java.util.Arrays.toString(weblogData);
         //JOptionPane.showMessageDialog(null, output); replace with write to file
+        //TODO: write to file
     }
     public void writeDarrayData()
     {
